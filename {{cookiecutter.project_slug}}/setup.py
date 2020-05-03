@@ -26,7 +26,7 @@ setup(
     long_description_content_type='text/x-rst',
     packages=find_packages(exclude=('tests',)),
     install_requires=[
-        'extended_celery_worker',
+        'extensible_celery_worker',
     ],
     entry_points={
         'excewo.tasks': [
