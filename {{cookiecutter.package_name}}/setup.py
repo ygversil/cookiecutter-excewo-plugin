@@ -28,6 +28,11 @@ setup(
     install_requires=[
         'extended_celery_worker',
     ],
+    entry_points={
+        'excewo.tasks': [
+            '{{ cookiecutter.package_name }} = {{ cookiecutter.package_name }}.tasks',
+        ],
+    },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
