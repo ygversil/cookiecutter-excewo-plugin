@@ -1,4 +1,10 @@
-# Sample Test passing with nose and pytest
+"""Sample tests."""
 
-def test_pass():
-    assert True, "dummy sample test"
+
+import unittest
+
+
+class SampleTest(unittest.TestCase):
+
+    def test_nothing(self):
+        self.assertTrue(True)
