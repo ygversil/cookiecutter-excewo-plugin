@@ -2,7 +2,7 @@
     "author_name": "Your Full Name",
     "author_email": "your.email@example.org",
     "project_slug": "excewo-plugin-name",
-    "package_name": "excewo_plugin_name",
+    "package_name": "package_name",
     "package_version": "0.1.0-dev1",
     "package_description": "Extensible Celery Worker (excewo) plugin providing tasks related to something",
     "package_url": "https://github.com/your-username/repository-name",
