@@ -1,25 +1,31 @@
-cookiecutter-pypackage-minimal
-==============================
+cookiecutter-excewo-plugin
+==========================
 
-An opinionated, minimal [cookiecutter](https://github.com/audreyr/cookiecutter) template for Python packages, and some guidelines for Python packaging.
+A [cookiecutter](https://github.com/audreyr/cookiecutter) template for writing
+plugins for [Extensible Celery
+Worker](https://github.com/ygversil/extensible-celery-worker) (excewo in
+short).
+
+This template is derived from this one, many thanks to its author and
+contributors: https://github.com/kragniz/cookiecutter-pypackage-minimal
 
 Usage
 -----
 
-    pip install cookiecutter
-    git clone https://github.com/kragniz/cookiecutter-pypackage-minimal.git
-    cookiecutter cookiecutter-pypackage-minimal/
+Just give this repository URL to cookiecutter.
 
-You should then change the classifiers in `{{ package_name }}/setup.py` - it is assumed that the project will run on the latest versions of Python 2 and 3, so you should remove any classifiers that do not apply. The full list of PyPI classifiers can be found [here](https://pypi.org/classifiers/).
+    cookiecutter https://github.com/ygversil/cookiecutter-excewo-plugin
 
-Fill out the README, and - if necessary - [choose a license](https://choosealicense.com/) for the project.
+Answer the few simple questions, and you're ready to go!
 
-Explanation
------------
+Don't forget to fill out the `README` file. You can also change the license in
+`setup.py` and `LICENSE` as long as it is compatible with the MIT license. See
+https://choosealicense.com/
 
-The decisions `cookiecutter-pypackage-minimal` makes should all be explained here.
+Decisions
+---------
 
-### README
+### README file
 
 * **README should use reStructuredText format**
   This is the format used by most Python tools, is expected by [setuptools](https://setuptools.readthedocs.io), and can be used by [Sphinx](http://sphinx-doc.org/).
