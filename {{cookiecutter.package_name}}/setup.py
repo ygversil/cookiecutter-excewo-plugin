@@ -25,7 +25,9 @@ setup(
     long_description=read_rst("README.rst"),
     long_description_content_type='text/x-rst',
     packages=find_packages(exclude=('tests',)),
-    install_requires=[],
+    install_requires=[
+        'extended_celery_worker',
+    ],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
