@@ -1,4 +1,4 @@
-"""Tasks for {{ cookiecuter.package_name }}."""
+"""Tasks for {{ cookiecutter.package_name }}."""
 
 
 from celery.utils.log import get_task_logger
